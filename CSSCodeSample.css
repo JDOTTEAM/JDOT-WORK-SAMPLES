@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Baskerville;
+    src: url(/fonts/LibreBaskerville-Bold.ttf);
+}
+
+@font-face {
+    font-family: Avenir Next Cyr;
+    src: url(/fonts/AvenirNextCyr-Thin.ttf);
+}
+
+.body {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center
+}
+
+.mainBlockStyle {
+    width: 95%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.messageBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 90%;
+}
+
+.rightHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    height: 84px;
+    width: 531px;
+    display: flex;
+    align-items: center;
+}
+
+.paw {
+    height: 93px;
+    width: 93px;
+    padding-left: 56px;
+}
+
+.headerStyle {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headerTextStyle {
+    color: #A90530;
+    font-family: Baskerville;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.535714px;
+    text-transform: uppercase;
+}
+
+.titleStyle {
+    font-family: Baskerville;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.535714px;
+    color: #014384;
+    margin-bottom: 32px;
+}
+
+.subTitleStyle {
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.535714px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .logo {
+        height: 74px;
+        width: 431px;
+    }
+    .paw {
+        height: 87px;
+        width: 87px;
+        padding-left: 56px;
+    }
+    .headerTextStyle {
+        color: #A90530;
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 45px;
+        letter-spacing: 0.535714px;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1200px) {
+    .logo {
+        height: 64px;
+        width: 331px;
+    }
+    .paw {
+        height: 87px;
+        width: 87px;
+        padding-left: 46px;
+    }
+    .headerTextStyle {
+        color: #A90530;
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 0.535714px;
+        text-transform: uppercase;
+    }
+    .titleStyle {
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 55px;
+        letter-spacing: 0.535714px;
+        color: #014384;
+        margin-bottom: 32px;
+    }
+
+    .subTitleStyle {
+        font-family: Avenir Next Cyr;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 37px;
+        letter-spacing: 0.535714px;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 950px) {
+    .logo {
+        height: 45px;
+        width: 230px;
+    }
+    .paw {
+        height: 70px;
+        width: 70px;
+        padding-left: 36px;
+    }
+    .headerTextStyle {
+        color: #A90530;
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    .titleStyle {
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 45px;
+        letter-spacing: 0.535714px;
+        color: #014384;
+        margin-bottom: 32px;
+    }
+
+    .subTitleStyle {
+        font-family: Avenir Next Cyr;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 37px;
+        letter-spacing: 0.535714px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 749px) {
+    .logo {
+        height: 35px;
+        width: 180px;
+    }
+    .paw {
+        height: 58px;
+        width: 58px;
+        padding-left: 30px;
+    }
+    .headerTextStyle {
+        color: #A90530;
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    .titleStyle {
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 35px;
+        letter-spacing: 0.535714px;
+        color: #014384;
+        margin-bottom: 32px;
+    }
+
+    .subTitleStyle {
+        font-family: Avenir Next Cyr;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: 0.535714px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px) {
+    .logo {
+        height: 30px;
+        width: 160px;
+    }
+    .paw {
+        height: 50px;
+        width: 50px;
+        padding-left: 25px;
+    }
+    .headerTextStyle {
+        color: #A90530;
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+    .titleStyle {
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 30px;
+        letter-spacing: 0.535714px;
+        color: #014384;
+        margin-bottom: 32px;
+    }
+
+    .subTitleStyle {
+        font-family: Avenir Next Cyr;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0.535714px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+    .logo {
+        height: 25px;
+        width: 140px;
+    }
+    .paw {
+        height: 40px;
+        width: 40px;
+        padding-left: 20px;
+    }
+    .headerTextStyle {
+        color: #A90530;
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+    .titleStyle {
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: 0.535714px;
+        color: #014384;
+        margin-bottom: 32px;
+    }
+
+    .subTitleStyle {
+        font-family: Avenir Next Cyr;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0.535714px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 399px) {
+    .logo {
+        height: 20px;
+        width: 110px;
+    }
+    .paw {
+        height: 35px;
+        width: 35px;
+        padding-left: 15px;
+    }
+    .headerTextStyle {
+        color: #A90530;
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+    .titleStyle {
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 22px;
+        letter-spacing: 0.535714px;
+        color: #014384;
+        margin-bottom: 32px;
+    }
+
+    .subTitleStyle {
+        font-family: Avenir Next Cyr;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0.535714px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 349px) {
+    .logo {
+        height: 20px;
+        width: 100px;
+    }
+    .paw {
+        height: 35px;
+        width: 35px;
+        padding-left: 15px;
+    }
+    .headerTextStyle {
+        color: #A90530;
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 13px;
+        text-transform: uppercase;
+    }
+    .titleStyle {
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 15px;
+        letter-spacing: 0.535714px;
+        color: #014384;
+        margin-bottom: 32px;
+    }
+
+    .subTitleStyle {
+        font-family: Avenir Next Cyr;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.535714px;
+    }
+}
